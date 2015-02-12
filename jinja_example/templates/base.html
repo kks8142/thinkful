@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flask Template Example</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            div#main {
+                max-width: 500px;
+                padding: 20px;
+            }
+
+            nav .title {                                                        
+                font-weight: bold;
+            }
+
+            a.active {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+           <span class="title">Jinja Work!</span>
+           <a href="#">Home</a> |
+           <a href="#">About</a> |
+           <a href="#">Contact Us</a>
+        </nav>
+        <div id="main">
+            <h2>This is part of my base template</h2>
+            <br>
+            {% block content %}{% endblock %}
+            <br>
+            <h2>This is part of my base template</h2>
+        </div>
+         <ul class="nav navbar-nav">
+             {{ nav_link('home', 'Home') }}
+             {{ nav_link('about', 'About') }}
+             {{ nav_link('contact', 'Contact Us') }}
+         </ul>
+      <footer>
+        {% block footer %}
+        Watch! This part of the footer is coming from the base template...
+        <br>
+        <br>
+        <h1>KRISHNA</h1>
+        {% endblock %}
+      </footer>
+    </body>
+</html>

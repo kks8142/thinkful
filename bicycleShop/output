@@ -1,0 +1,31 @@
+
+Tahoe Bikes :$(0 profit):
+--------------------
+Inventory
+--------------------
+model:All Terrain cost:100 price 120
+model:Youth Jumper cost:150 price 180
+model:Speed Demon cost:250 price 300
+model:US MountainBike cost:350 price 420
+model:Roadster cost:100 price 120
+model:All Seasons cost:550 price 660
+
+Customers of this bicycle store :
+------------------------------
+name:Larry cash:200
+name:Bill cash:500
+name:Steve cash:1000
+
+Customers purchased the following :
+-----------------------------------
+Larry bought the Youth Jumper at $180. $20 is left over.
+Bill bought the US MountainBike at $420. $80 is left over.
+Steve bought the Roadster at $120. $880 is left over.
+
+Tahoe Bikes :$(120 profit):
+--------------------------
+Cycles leftover :
+--------------------------
+Speed Demon
+All Terrain
+All Seasons

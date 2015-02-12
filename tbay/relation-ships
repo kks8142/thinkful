@@ -1,0 +1,6 @@
+Thinkful mentors and their students   - Many-to-Many relationship
+people and their spouses  - One-to-One relationship
+Films and their critics who reviewd them - Many-to-Many relationship
+TBay items and the users selling the item - Many-to-Many relationship
+TBay items and the users who have bid on them - One-to-Many
+TBay items and the bids placed on them - One-to-Many

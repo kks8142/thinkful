@@ -9,7 +9,7 @@ bikes = [
     Bicycle("Speed Demon", 50, 250),
     Bicycle("US MountainBike", 90, 350),
     Bicycle("Roadster", 65, 100),
-    Bicycle("All Seasons", 75, 550)
+    Bicycle("BMX StuntBike", 75, 550)
 ]
 
 shop = BikeShop("Tahoe Bikes", 20, bikes)
